@@ -92,7 +92,8 @@ div.hero h2 {
 }
 
 .skip-link {
-    
+    overflow:hidden;
+    display:none;
     margin:0;
     padding:0;
     list-style-type:none;
