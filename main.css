@@ -109,7 +109,7 @@ div.hero h2 {
 
   .skip-link a:focus{
     top:0
-    display:none
+    
   }
 
 @media screen and (min-width: 768px) {
