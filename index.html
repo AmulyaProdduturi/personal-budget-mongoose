@@ -11,6 +11,34 @@
     <link rel="stylesheet" href="/pb/main.css">
 </head>
 <body>
+    <style>
+    .hidden {
+        padding: 8px;
+        position: absolute;
+        background: #E77E23;
+        left: 50%;
+        height: 30px;
+        transform: translateY(-100%);
+        transition: transform 0.3s;
+      }
+      a:focus {
+        transform: translateY(0%);
+        }
+
+        a {
+        color: #333;
+        text-decoration: none;
+        }
+      </style>
+      
+    <!-- This is an A11y Change -->
+    
+    <a class="hidden" href="#main">Skip to content</a>
+      
+      <main id="main">
+          
+      </main>
+      <!-- This is an A11y Change -->
 
 
     <div class="menu">
@@ -28,15 +56,6 @@
     <link rel="canonical" href="https://google.com">
     <!-- This is an SEO Change -->
 
-    <!-- This is an A11y Change -->
-    <header>
-        <a class="skip-link" href='#main'>Skip to content</a>
-      </header>
-      
-      <main id="main">
-          
-      </main>
-      <!-- This is an A11y Change -->
 
 
     <div class="hero">
