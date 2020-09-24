@@ -90,27 +90,10 @@ div.hero h2 {
     text-align: justify;
     margin: 20px;
 }
-.skip-to-content-link {
-  left: 50%;
-  position: absolute;
-  transform: translateY(-100%);
-}
-.skip-to-content-link {
-    background: #e77e23;
-    height: 30px;
-    left: 50%;
-    padding: 8px;
-    position: absolute;
-    transform: translateY(-100%);
-    transition: transform 0.3s;
-  }
-  
-  .skip-to-content-link:focus {
-    transform: translateY(0%);
-  }
 
 
-  .hidden {
+
+  a#hidden {
     padding: 8px;
     position: absolute;
     background: #E77E23;
@@ -119,15 +102,12 @@ div.hero h2 {
     transform: translateY(-100%);
     transition: transform 0.3s;
   }
-  a:focus {
+  
+  a#hidden:focus {
     transform: translateY(0%);
     }
 
-    a {
-    color: #333;
-    text-decoration: none;
-    }
-
+   
 @media screen and (min-width: 768px) {
     .container .div.text-box {
         margin: 10px;
