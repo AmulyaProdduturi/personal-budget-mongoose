@@ -100,19 +100,19 @@ section{
 
 
   /*<!-- This is an A11y Change -->*/
-  a#hidden {
-    padding: 8px;
-    position: absolute;
-    background: #E77E23;
+  #skip {
+    background: #4d5791;
+    color: #fff;
+    font-weight: 700;
     left: 50%;
-    height: 30px;
+    padding: 4px;
+    position: absolute;
     transform: translateY(-100%);
-    transition: transform 0.3s;
   }
   
-  a#hidden:focus {
+  #skip:focus {
     transform: translateY(0%);
-    }
+  }
 
     /*<!-- This is a Semantic HTML Change -->*/
       footer {
