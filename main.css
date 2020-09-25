@@ -6,7 +6,7 @@ body {
     font-size: 10px;
     font-family: Tahoma, Arial;
 }
-
+/*<!-- This is a Semantic HTML Change -->*/
 nav {
     width: 100%;
     background-color: #4d5791;
@@ -82,7 +82,7 @@ div.hero h2 {
 .center {
     text-align: center;
 }
-
+/*<!-- This is a Semantic HTML Change -->*/
 article{
     display: inline-block;
     width: 100%;
@@ -99,7 +99,7 @@ section{
 }
 
 
-
+  /*<!-- This is an A11y Change -->*/
   a#hidden {
     padding: 8px;
     position: absolute;
@@ -114,7 +114,7 @@ section{
     transform: translateY(0%);
     }
 
-    
+    /*<!-- This is a Semantic HTML Change -->*/
       footer {
         text-align: center;
         height: 50px;

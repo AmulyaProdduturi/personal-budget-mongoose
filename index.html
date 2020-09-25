@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- This is an SEO Change -->
     <meta name="description" content="Follow the personal budget management app!!">
-     <!-- This is an SEO Change -->
-
-     <!-- This is an SEO Change -->
+    <meta property="og:title" content="Everything you need to know with budget management" />
+    <meta name="robots" content="noimageindex, nofollow, nosnippet">
     <title>Personal Budget Web Application</title>
     <!-- This is an SEO Change -->
     <link rel="stylesheet" href="./reset.css">
@@ -19,20 +18,20 @@
 
     <a id="hidden" href="#main">Skip to content</a>
       
-      <main id="main">
+      
           
-      </main>
+      
       <!-- This is an A11y Change -->
     
 
-
-    <nav>
+    <!-- This is a Semantic HTML Change -->
+    <nav role="navigation">
         <header>
         <!-- This is an A11y Change -->
         <ul>
-            <li><a href="" rel="nofollow" title="visit my home page" tabindex=-1>Home</a></li>
-            <li><a href="./about.html" rel="nofollow" title="visit my about page">About</a></li>
-            <li ><a href="./login.html" rel="nofollow" title="visit my login page" tabindex=1>Login</a></li>
+            <li><a href="" rel="nofollow" title="visit my home page" >Home</a></li>
+            <li><a href="./about.html"  title="visit my about page">About</a></li>
+            <li ><a href="./login.html" title="visit my login page" tabindex=1>Login</a></li>
             <li><a href="https://google.com" rel="dofollow" title="visit google">Google</a></li>
         </ul>
          <!-- This is an A11y Change -->
@@ -54,12 +53,12 @@
 
     
 
-    <div class="container center">
+    <main class="container center">
   
-
+        <main id="main">
         <div class="page-area">
             <!-- This is a Semantic HTML Change -->
-            <article>
+            <article role="contentinfo" aria-label="Article Personal Budgets">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -68,14 +67,14 @@
                 </p>
             </article>
     
-            <article>
+            <article role="contentinfo" aria-label="Article Personal Budget alerts">
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </article>
     
-            <article>
+            <article role="contentinfo" aria-label="Article Personal Budget results">
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -84,7 +83,7 @@
                 </p>
             </article>
     
-            <article>
+            <article role="contentinfo" aria-label="Article Personal Budget application">
                 <h1>Free</h1>
                 <p>
                     This app is free!!! And you are the only one holding your data!
@@ -93,7 +92,7 @@
             <!-- This is a Semantic HTML Change -->
             
             <!-- This is a Semantic HTML Change -->
-            <section>
+            <section role="contentinfo" aria-label="section on stay on track">
                 <h1>Stay on track</h1>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
@@ -102,14 +101,14 @@
                 </p>
             </section>
     
-            <section>
+            <section role="contentinfo" aria-label="section on Personal Budget alerts">
                 <h1>Alerts</h1>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </section>
     
-            <section>
+            <section role="contentinfo" aria-label="section on Personal Budget results">
                 <h1>Results</h1>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
@@ -117,8 +116,8 @@
                     because they know it is all good and accounted for.
                 </p>
             </section>
-    
-            <section>
+            
+            <section role="contentinfo" aria-label="section on Personal Budget discounts">
                 <h1>Free</h1>
                 <p>
                     This app is free!!! And you are the only one holding your data!
@@ -129,16 +128,17 @@
               
 
         </div>
+    </main>
 
     </div>
 
 
    
 <!-- This is a Semantic HTML Change -->
-   
-   <footer>
-        <p>All rights reserved &copy; Fabio Nolasco</p>
-        
+   <!-- This is an A11y Change -->
+   <footer role="content-info">
+    <p><small id="sm-01">All rights reserved &copy; Fabio Nolasco</small></p>
+     
       </footer>
 <!-- This is a Semantic HTML Change -->      
 
