@@ -23,6 +23,10 @@
     {
         "title" : "Shopping",
         "budget": "120"
+    },
+    {
+        "title" : "Travel",
+        "budget" : "90"
     }
 
     
