@@ -10,7 +10,8 @@ const budgetSchema = mongoose.Schema({
     title :{
         type: String,
         required : true,
-        trim: true
+        trim: true,
+        unique: true
     },
     budget :{
         type : Number,
